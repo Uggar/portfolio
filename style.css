@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #200122;  /* solution de secours pour les anciens navigateurs */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    color: rgb(60, 60, 60);
+}
+
+footer {
+    background-color: #333;
+    color: #c9c9c9;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style pour le portfolio */
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: 30%;
+    margin: 10px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border: 2px solid #333;
+}
+
+.portfolio-item img:hover {
+    border-color: #ff6600;
+}
+#about {
+    background: #200122;  /* solution de secours pour les anciens navigateurs */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#about h2 {
+    color: rgb(100, 100, 100);
+}
+
+#about p {
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact {
+    background: #200122;  /* solution de secours pour les anciens navigateurs */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#contact h2 {
+    color: rgb(150, 150, 150);
+}
+
+#contact p {
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+    line-height: 1.6;
+}
+h1 {
+    color: #ff6600;
+}
+footer a.toggle-about {
+    color: #ff6600;
+    cursor: pointer;
+}
+.about-image img {
+    border-radius: 50%;
+    width: 20em; /* Ajustez la taille de la photo selon vos besoins */
+    height: 20em; /* Ajustez la taille de la photo selon vos besoins */
+    position: absolute;
+    right: 30em;
+    top: 10em;
+}
+.info {
+    font-size: 0.90em;
+    font-family: cursive;
+}
+.gif {
+    position: absolute;
+    bottom: 0em;
+    right: 2em;
+}
+.bisca_grand_lac img {
+    width: 20em; /* Ajustez la taille de la photo selon vos besoins */
+    height: 10em; /* Ajustez la taille de la photo selon vos besoins */
+    position: absolute;
+    right: 6em;
+    top: 14em;

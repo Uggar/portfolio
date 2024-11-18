@@ -1,0 +1,167 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #200122;  /* solution de secours pour les anciens navigateurs */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #ff6600;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+    color: #ff6600;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+section {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #200122;  /* solution de secours pour les anciens navigateurs */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(150, 150, 150);
+}
+
+section h2 {
+    color: rgb(100, 100, 100);
+    font-size: 24px;
+    margin-top: 0;
+    margin-left: 0.6em;
+}
+
+section ul {
+    padding: 0;
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style pour les compétences */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills ul li {
+    margin-right: 10px;
+    background-color: #333;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les expériences professionnelles et la formation */
+#experience ul, #education ul, #school_career ul {
+    padding-left: 1em;
+}
+
+#experience ul li, #education ul li, #school_career ul li {
+    margin-bottom: 20px;
+}
+
+#experience ul li h3, #education ul li h3, #school_career ul li h3 {
+    margin-top: 0;
+    font-style: oblique;
+}
+/* Style pour la section "À propos de moi" */
+#about {
+    background-color: #f9f9f9;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-image img {
+    border-radius: 50%;
+    width: 150px; /* Ajustez la taille de la photo selon vos besoins */
+    height: 150px; /* Ajustez la taille de la photo selon vos besoins */
+    margin-right: 20px;
+}
+
+.contact-info {
+    position: absolute;
+    top: 27em;
+    right: 2.5em;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+    color: rgb(100, 100, 100);
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+.image-hover {
+  transition: transform 0.3s ease; /* Ajoute une transition pour un effet en douceur */
+}
+.image {
+  display: inline-block;
+  position: absolute;
+  right: 2em;
+  top: 2em;
+
+}
+.image:hover .image-hover {
+    transform: scale(1.1);
+    fill: #000000;
+}
+.gif {
+    position: sticky;
+    bottom: 0em;
+    margin-left: 94em;
+}

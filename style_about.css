@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #200122;  /* solution de secours pour les anciens navigateurs */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6600;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #ff6600;
+}
+h1 {
+    color: #ff6600;
+    font-size: 2em;
+    line-height: 1.6;
+}
+h2 {
+    color: rgb(60, 60, 60);
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+.image {
+    display: inline-block;
+    position: absolute;
+    right: 2em;
+    top: 2em;
+}
+.image:hover .image-hover {
+    transform: scale(1.1);
+    fill: #000000;
+}
+footer {
+    background-color: #333;
+    color: #c9c9c9;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a.toggle-about {
+    color: #ff6600;
+    cursor: pointer;
+}
+#perso {
+    background: #200122;  /* solution de secours pour les anciens navigateurs */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#perso h2 {
+    color: rgb(100, 100, 100);
+}
+
+#perso p {
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+    line-height: 1.6;
+}
+.gif {
+    position: absolute;
+    bottom: 0em;
+    right: 2em;
+}
